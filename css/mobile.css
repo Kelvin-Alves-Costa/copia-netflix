@@ -100,5 +100,35 @@ img#logo{
     margin: auto;
 }
 main{
-    background-color: green;
+    background-color: black;
+}
+#section-1{
+    padding: 1em;
+    height: 500px;
+}
+.painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.painel h1, .painel p{
+    text-align: center;
+}
+.demonstration-video{
+    position: relative;
+    top: 120px;
+}
+.demonstration-video video {
+    position: relative;
+    max-width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.demonstration-video img{
+    position: absolute;
+    max-width: 98%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
