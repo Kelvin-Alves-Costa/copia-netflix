@@ -5,3 +5,7 @@ Monitor Apple: https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/d
 Video no monitor apple:"https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
 
 Foto infantil: https://occ-0-782-1123.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABWGB3YOpSh2wA7OOZQYD-MkalQ0oJEy-YEEpoPKAIenLtZf5lKeERDdKj-u6WnZx9wx_QuiDVHkGM_1QmVQt9yxM7mKjevBNHKFz.png?r=1b8
+
+imagem mobile : https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg
+Capa Stranger Things: https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png
+Gif de Download: https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif
