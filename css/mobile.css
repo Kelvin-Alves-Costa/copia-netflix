@@ -12,6 +12,7 @@
 }
 body{
     color: var(--cortextoprimario);
+    background-color: var(--corprimaria);
     font-family: sans-serif;
 }
 header{
@@ -35,16 +36,16 @@ img#logo{
     height: 1.5em;
     width: auto;
 }
-#form-language{
+.form-language{
     position: relative;
 }
-#form-language select{
+.form-language select{
     height: auto;
     padding: 5px 22px;
     background-color: transparent;
     color: white;
 }
-#form-language select option{
+.form-language select option{
     background-color: gray;
 }
 #symbol-language{
@@ -61,34 +62,34 @@ img#logo{
     border: 2px solid red;
     border-radius: 5px;
 }
-#register{
+.register{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-#register h1{
+.register h1{
     max-width: 300px;
     font-size: 28px;
     margin-bottom: 1em;
 }
-#register p{
+.register p{
     font-size: 18px;
     max-width: 300px;
     margin-bottom: 1em;
 }
-#register p:last-child{
+.register p:last-child{
     margin-bottom: 0.5em;
 }
-#register input{
+.register input{
     max-width: 100%;
     width: 80vw;
     height: 40px;
     margin-bottom:1.5em;
     padding-left: 10px;
 }
-#register button{
+.register button{
     color: white;
     background-color: red;
     border: 1px solid red;
@@ -198,3 +199,59 @@ strong{
     color: #0071EB;
     font-size: 12px;
 }
+.questions{
+    margin-bottom: 1.5em;
+}
+.questions h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #303030;
+    padding: 1em;   
+    margin-bottom: 0.5em; 
+
+    cursor: pointer;
+}
+.question p{
+    font-size: 18px;
+}
+.question p.next{
+    margin-bottom: 1em;
+}
+.none{
+    display: none;
+}
+div#footer-flex{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    padding: 2em;
+    font-size: 14px;
+}
+#footer-flex p:first-child{
+    margin-bottom: 2em;
+    font-size: 16px;
+}
+#footer-flex ul{
+    list-style: none;
+    columns: 2;
+    margin-bottom: 3em;
+}
+#footer-flex li{
+    margin-bottom: 1em;
+}
+#footer-flex div.form-language{
+    margin-bottom: 2em;
+}
+#footer-flex div.form-language
+ select{
+    width: 40%;
+    text-align: center;
+ }
+
+
+
