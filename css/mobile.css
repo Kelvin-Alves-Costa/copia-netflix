@@ -107,6 +107,15 @@ main{
     padding: 1em;
     height: 500px;
 }
+.line{
+    height: 8px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.156);
+    margin: 3em 0em 3em 0em;
+}
+#section-1 #line-1{
+    margin: 0em -1em 3em -1em;
+}
 .painel{
     display: flex;
     flex-direction: column;
@@ -148,6 +157,9 @@ main{
     padding: 1em;
     height: 500px;
 }
+#section-2 #line-2{
+    margin: 3em -1em 3em -1em;
+}
 #section-2 h1{
     margin-bottom: 1em;
 }
@@ -163,6 +175,12 @@ main{
 }
 #section-3 p {
     max-width: 80%;
+}
+#line-3{
+    margin: 8em -1em 3em -1em;
+}
+#line-4{
+    margin: 4em -1em 3em -1em;
 }
 .demonstration-image img{
     display: block;
@@ -202,6 +220,9 @@ strong{
 .questions{
     margin-bottom: 1.5em;
 }
+#line-5{
+    margin: 0.5em -1em 3em -1em ;
+}
 .questions h1{
     text-align: center;
     margin-bottom: 1em;
@@ -217,7 +238,7 @@ strong{
     cursor: pointer;
 }
 .question p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .question p.next{
     margin-bottom: 1em;
@@ -231,6 +252,9 @@ div#footer-flex{
     color: gray;
     padding: 2em;
     font-size: 14px;
+}
+#line-6{
+    margin: 4em -1em 3em -1em;
 }
 #footer-flex p:first-child{
     margin-bottom: 2em;
@@ -253,5 +277,8 @@ div#footer-flex{
     text-align: center;
  }
 
+#footer-flex #symbol-language{
+    color: white;
+}
 
 
