@@ -240,12 +240,19 @@ strong{
 .question p{
     font-size: 16px;
 }
+.question p:first-child{
+    margin-bottom: 1em;
+}
 .question p.next{
     margin-bottom: 1em;
 }
-.none{
+.visibility-none{
     display: none;
 }
+.visibility{
+    display: block !important;
+}
+
 div#footer-flex{
     display: flex;
     flex-direction: column;
